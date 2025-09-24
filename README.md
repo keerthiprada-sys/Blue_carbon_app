@@ -1,10 +1,11 @@
-# blue_carbon_app
+# Blue_carbon_app
 
-A new Flutter project.
+Blockchain-based Blue Carbon Registry and MRV system
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is built with Flutter. It is a starting point for developing the
+user and verifier app for the Blue Carbon Hackathon project.
 
 A few resources to get you started if this is your first Flutter project:
 

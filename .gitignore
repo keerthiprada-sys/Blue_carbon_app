@@ -1,7 +1,10 @@
-.dart_tool/
-.packages
-.pub-cache/
-build/
-ios/Pods/
-android/.gradle/
-*.lock
+# Node stuff
+node_modules/
+npm-debug.log
+
+# Env files
+.env
+.env.local
+
+# Build
+dist/

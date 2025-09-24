@@ -1,8 +1,9 @@
-# Node stuff
+# Node.js
 node_modules/
 npm-debug.log
+yarn-error.log
 
-# Env files
+# Env
 .env
 .env.local
 

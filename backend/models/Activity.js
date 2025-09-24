@@ -1,17 +1,21 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
-const activitySchema = new mongoose.Schema(
-	{
-		user: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
-		plantationName: { type: String, required: true },
-		hectares: { type: Number, required: true },
-		photo: String,
-		location: String,
-		carbonAbsorbed: Number,
-		status: { type: String, enum: ["pending", "approved", "rejected"], default: "pending" },
-		reason: String,
-	},
-	{ timestamps: true }
+const ActivitySchema = new mongoose.Schema(
+  {
+    user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+    plantationName: String,
+    hectares: Number,
+    photo: String,
+    location: String,
+    carbonAbsorbed: Number,
+    status: { type: String, default: "pending" },
+    reason: { type: String }
+  },
+  { timestamps: true }
 );
+const Activity = mongoose.model("Activity", ActivitySchema);
+export default Activity;   // 👈 this makes it a "default export"
 
-module.exports = mongoose.model("Activity", activitySchema);
+
+
+

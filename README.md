@@ -1,17 +1,24 @@
-# Blue_carbon_app
+# BlueCarbon Blockchain  — Registry & MRV System
 
-Blockchain-based Blue Carbon Registry and MRV system
+A blockchain-based registry system for Blue Carbon credits, enabling transparent monitoring, reporting, and verification (MRV) of carbon capture projects.
 
-## Getting Started
+##  Objective
+To explore how blockchain can enhance trust, traceability, and transparency in carbon accounting and sustainability systems.
 
-This project is built with Flutter. It is a starting point for developing the
-user and verifier app for the Blue Carbon Hackathon project.
+## ⚙️ Tech Stack
+- Solidity (Smart Contracts)  
+- Ethereum Blockchain  
+- Python / Web3.js for backend interactions  
 
-A few resources to get you started if this is your first Flutter project:
+##  Key Features
+- Immutable carbon credit registry  
+- MRV data storage using smart contracts  
+- Simulated transaction tracking for verification  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Future Work
+- Integration with IoT sensors for real-time monitoring  
+- Web dashboard for credit visualization  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+**Keerthi Prada**
+Exploring sustainability through technology — combining CS with environmental impact  
